@@ -1,0 +1,31 @@
+*, *::after, ::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #487eb0;
+}
+.container{
+    max-width: 1140px;
+    height: 100vh;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 870px;
+    width: 600px;
+    background-color: #f5f6fa;
+    box-shadow: 10px 10px 20px black;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5;
+}
